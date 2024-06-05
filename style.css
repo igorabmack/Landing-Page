@@ -89,6 +89,7 @@ img{
 .section2bottom{
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 .blueboxes{
@@ -97,10 +98,16 @@ img{
     padding: 60px;
     margin: 20px;
     transition-property: background-color;
-    transition-duration: .5s;
+    transition:
+    background-color .4s,
+    padding .7s;
+
+     
+    
 }
 .blueboxes:hover{
     background-color: #1f2947;
+    padding: 50px;
 }
 
 .section3{
@@ -132,13 +139,25 @@ img{
     padding: 10px 15px;
     border-radius: 5px;
     border-color: #e5e7eb; 
-    transition-property: background-color;
-    transition-duration: .5s; 
+    transition:
+    background-color .4s,
+    color .4s,
+    font-weight .5s;
+
 }
 .btn2:hover{
     background-color:#e5e7eb;
+    color: #3882f6;
+    
 }
 
 footer{
+    background-color: #1f2947;
+    padding: 30px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 
 }
